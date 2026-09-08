@@ -1,0 +1,37 @@
+body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    
+    /* Estilo do item principal */
+    details {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      cursor: pointer;
+      
+    }
+    
+    /* Estilo da frase principal */
+    #summary1{
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-left: 10px;
+      list-style: none;
+    }
+    details[open] #summary1{
+      background-color: #ccc;
+    }
+    #summary2 {
+      font-weight: bold;
+      
+    }
+    
+    /* Estilo do conteúdo que aparece ao clicar */
+    .conteudo {
+      margin-top: 10px;
+      padding-left: 15px;
+    }
+   
